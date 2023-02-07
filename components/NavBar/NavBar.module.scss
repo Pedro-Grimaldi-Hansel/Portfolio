@@ -6,8 +6,11 @@
         height: 64px;
         width: 100vw;
         background-color: #374A67;
-        position: absolute;
+        position: fixed;
         bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
         a{
             font-size: 20px;
             transition: 150ms;
