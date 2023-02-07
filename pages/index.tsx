@@ -24,7 +24,7 @@ export default function Home() {
        
        <section className={styles.Home_top}>
         <div className={styles.foto_de_perfil}>
-          <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer"><Image alt='icone ' placeholder='blur' src={foto}/></a>
+          <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer"><Image alt='Foto de perfil' src={foto}/></a>
         </div>
        </section>
 

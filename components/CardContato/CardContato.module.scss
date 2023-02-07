@@ -1,18 +1,16 @@
-@media ( max-width: 426px){
-    .CardContato{
-        display: flex;
-        justify-content: center;
-        .Container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #374A67;
-        height: 80px;
-        padding-right: 20px;
-        padding-left: 20px;
-        border-radius: 30px;
-        gap: 20px;
-        }
-    
+.CardContato{
+    display: flex;
+    justify-content: center;
+    .Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374A67;
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    gap: 20px;
     }
+
 }

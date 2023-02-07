@@ -1,25 +1,23 @@
-@media ( max-width: 426px){
-    .NavBar{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        height: 64px;
-        width: 100vw;
-        background-color: #374A67;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        a{
-            font-size: 20px;
-            transition: 150ms;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: 0,4s;
-        }
-        a:hover{
-            border-color: #ffffff;
-        }
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 64px;
+    width: 100vw;
+    background-color: #374A67;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    a{
+        font-size: 20px;
+        transition: 150ms;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: 0,4s;
+    }
+    a:hover{
+        border-color: #ffffff;
     }
 }
