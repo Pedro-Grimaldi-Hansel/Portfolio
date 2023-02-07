@@ -1,0 +1,23 @@
+@media ( max-width: 425px){
+    .NavBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: #374A67;
+        a{
+            font-size: 20px;
+            transition: 150ms;
+                text-decoration: none;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-bottom: 2px solid transparent;
+                transition: 0,4s;
+        }
+        a:hover{
+            border-color: #ffffff;
+        }
+    }
+}
