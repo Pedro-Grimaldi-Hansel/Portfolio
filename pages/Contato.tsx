@@ -1,16 +1,16 @@
 import CardContato from '@/components/CardContato'
+import Navbar from '@/components/NavBar'
+import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
 import type { NextPage } from 'next'
-import Navbar from '../components/NavBar'
+
 import styles from '../styles/scss/contato.module.scss'
 
 const Contato = () => {
   return (  
     <>
         <Navbar/>
+        <TutuloPaginaMobile pagina="Contato"/>
         <section className={styles.Contato}>
-          <section className={styles.Contato_top}>
-            <h1>Contato</h1>
-          </section> 
           <section className={styles.Contato_infos}>
             <h2>Email:</h2>
             <p>pedroghansel@gmail.com</p>
