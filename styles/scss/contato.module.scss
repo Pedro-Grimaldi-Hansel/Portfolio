@@ -1,39 +1,26 @@
-.Contato{
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px; 
-    text-align: center;
-    a{
-       text-decoration: underline;
-    }
+@media ( max-width: 426px){
+    .Contato{
+        .Contato_top{
+                height: 72px;
+                background-color: #374A67;
+                border-radius: 0px 0px 150px 0px;
+                display: flex;
+                justify-content: center;
+                h1{
+                    font-size: 30px;
+                }
+        }
+        .Contato_infos{
+            text-align: center;
+            margin-left: 16px;
+            margin-right: 16px;
 
-    h1{
-        font-size: 45px;
-        color: #DAD7CD; 
-        padding-left: 20px; 
-        padding-right: 20px; 
-        margin-bottom: 0px;
+            h2{
+                font-size: 20px;
+                padding-left: 20px; 
+                padding-right: 20px; 
+                margin-bottom: 0px;
+            }
+        }
     }
-
-    h2{
-        font-size: 32px;
-        color: #A3B18A;  
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-bottom: 0px;
-    }  
-
-    h3{
-        font-size: 22px;
-        color: #A3B18A;
-        padding-left: 50px; 
-        padding-right: 50px;  
-    }
-
-    p{
-        font-size: 20px;
-        line-height: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
+}    
