@@ -31,10 +31,10 @@ export default function Home() {
        </section>
 
        <section className={styles.GitHubStats}>
-       <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer">
-        <img height="auto" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=374A67&text_color=ffffff&title_color=ffffff&hide_border=true&border_radius=25"/>
+        <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=374A67&text_color=ffffff&title_color=ffffff&hide_border=true&border_radius=25"/>
         </a>
-      </section>
+       </section>
       <Navbar/>
       </main>
     </>

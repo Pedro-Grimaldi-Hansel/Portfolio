@@ -33,6 +33,19 @@
             justify-content: center;
             align-items: center;
             padding-top: 24px;
+            img{
+                height: auto;
+                width: auto;
+            }
+        }
+    }
+}
+@media ( max-width: 370px){
+    .Home{
+        .GitHubStats{
+            img{
+                width: 320px;
+            }
         }
     }
 }
