@@ -8,7 +8,7 @@ import styles from '../styles/scss/contato.module.scss'
 const Contato = () => {
   return (  
     <>
-        <Navbar/>
+        
         <TutuloPaginaMobile pagina="Contato"/>
         <section className={styles.Contato}>
           <section className={styles.Contato_infos}>
@@ -21,6 +21,7 @@ const Contato = () => {
           </section>
           <CardContato/>
         </section>
+        <Navbar/>
 
     </>  
   )

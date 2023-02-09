@@ -39,6 +39,11 @@
         }
     }
 }
+.NavBar{
+    display: flex;
+    height: auto;
+    align-items: flex-end;
+}
 @media ( max-width: 360px){
     .Home{
         .GitHubStats{

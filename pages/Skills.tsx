@@ -6,8 +6,9 @@ import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
 const Skills = () => {
   return (  
     <>
-        <Navbar/>   
+           
         <TutuloPaginaMobile pagina="Skills"/> 
+        <Navbar/>
     </>  
   )
 }

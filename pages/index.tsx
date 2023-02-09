@@ -17,9 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      
-      
+      <NavbarMobile/>
       <main className={styles.Home}>
        
        <section className={styles.Home_top}>
@@ -39,7 +37,6 @@ export default function Home() {
         </a>
        </section>
       </main>
-      <NavbarMobile/>
     </>
   )
 }
