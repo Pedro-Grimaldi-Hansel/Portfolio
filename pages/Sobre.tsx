@@ -6,9 +6,11 @@ import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
 const Sobre = () => {
     return (  
       <>
-        
+
         <TutuloPaginaMobile pagina="Sobre Mim"/>
+
         <Navbar/>
+        
       </>  
     )
   }

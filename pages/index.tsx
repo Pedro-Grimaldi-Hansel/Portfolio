@@ -17,7 +17,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <NavbarMobile/>
+
       <main className={styles.Home}>
        
        <section className={styles.Home_top}>
@@ -36,7 +38,9 @@ export default function Home() {
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=374A67&text_color=ffffff&title_color=ffffff&hide_border=true&border_radius=25"/>
         </a>
        </section>
+
       </main>
+      
     </>
   )
 }

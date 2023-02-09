@@ -10,7 +10,9 @@ const Contato = () => {
     <>
         
         <TutuloPaginaMobile pagina="Contato"/>
+
         <section className={styles.Contato}>
+
           <section className={styles.Contato_infos}>
             <h2>Email:</h2>
             <p>pedroghansel@gmail.com</p>
@@ -19,10 +21,12 @@ const Contato = () => {
             <h2>Endereço:</h2>
             <p>Av. Pres. Costa e Silva, 2391 - São Pedro, Juiz de Fora - MG</p>
           </section>
-          <CardContato/>
-        </section>
-        <Navbar/>
 
+          <CardContato/>
+          
+        </section>
+
+        <Navbar/>
     </>  
   )
 }

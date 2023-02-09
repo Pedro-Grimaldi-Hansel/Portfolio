@@ -8,9 +8,11 @@ interface IPaginas{
 
 const TutuloPaginaMobile = (props:IPaginas) => {
     return (
-      <section className={styles.TutuloPaginaMobile}>
-        <h1>{props.pagina}</h1>
-      </section>
+      <>  
+        <section className={styles.TutuloPaginaMobile}>
+          <h1>{props.pagina}</h1>
+        </section>
+      </>
     );
   };
   
