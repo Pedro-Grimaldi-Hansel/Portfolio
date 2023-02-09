@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Link from "next/link";
 import React from "react";
-import styles from "./NavBar.module.scss";
+import styles from "./NavBarMobile.module.scss";
 
 const Navbar = () => {
     return (

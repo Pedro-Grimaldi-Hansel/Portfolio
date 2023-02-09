@@ -4,7 +4,7 @@ import type { NextPage } from 'next'
 import styles from '../styles/scss/index.module.scss'
 import Image from "next/image";
 import foto from '../public/images/FotoPedro.jpeg'
-import Navbar from '@/components/NavBar';
+import NavbarMobile from '@/components/NavBarMobile';
 
 
 
@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <Navbar/>
+      
       
       <main className={styles.Home}>
        
@@ -39,6 +39,7 @@ export default function Home() {
         </a>
        </section>
       </main>
+      <NavbarMobile/>
     </>
   )
 }
