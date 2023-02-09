@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Navbar from '@/components/NavBar'
+import Navbar from '@/components/NavBarMobile'
 import styles from '../styles/scss/skills.module.scss'
 import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
 

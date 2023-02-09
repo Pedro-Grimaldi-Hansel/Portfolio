@@ -1,5 +1,5 @@
 import CardContato from '@/components/CardContato'
-import Navbar from '@/components/NavBar'
+import Navbar from '@/components/NavBarMobile'
 import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
 import type { NextPage } from 'next'
 
