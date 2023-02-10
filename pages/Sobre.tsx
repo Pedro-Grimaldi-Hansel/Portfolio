@@ -4,7 +4,7 @@ import styles from '../styles/scss/sobre.module.scss'
 import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
 import Image from "next/image";
 
-import foto1 from '@/public/images/EMEJFim.jpeg'
+import foto1 from '@/public/images/EMEJFimedited.jpeg'
 import foto2 from '@/public/images/RRPaineledited.jpeg'
 
 const Sobre = () => {
@@ -26,7 +26,9 @@ const Sobre = () => {
             </div>
 
             <div className={styles.Mid_foto}>
+
               <Image alt='Foto do EMEJ' src={foto1}/>
+        
             </div>
 
           </section>
@@ -36,7 +38,8 @@ const Sobre = () => {
           </section>
 
           <section className={styles.Bottom}>
-            
+            <p>Tive a oportunidade de participar de alguns eventos empresariais que me permitiram ampliar minha rede de contatos e conhecer pessoas 
+                influentes na minha área, e melhorar minhas Soft-Skills.</p>
           </section>
 
         </section>
