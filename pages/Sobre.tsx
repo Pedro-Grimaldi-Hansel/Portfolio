@@ -38,8 +38,12 @@ const Sobre = () => {
           </section>
 
           <section className={styles.Bottom}>
-            <p>Tive a oportunidade de participar de alguns eventos empresariais que me permitiram ampliar minha rede de contatos e conhecer pessoas 
-                influentes na minha área, e melhorar minhas Soft-Skills.</p>
+            <p>Acredito que uns dos momentos profissionais mais importantes para mim foram ter participado de alguns
+            eventos empresariais que me permitiram ampliar minha rede de contatos e conhecer
+            pessoas influentes na minha área, e melhorar minhas Soft-Skills e tambem ter o cargo de Gerente de Projetos, o
+            qual me fez desenvolver Hard-Skills e saber como lidar com precificação e documentação de projetos, correção de bugs
+            principalmente em merges de branchs tanto no GitHub qunto no BitBucket e lidar diretamente com clientes e prazos de etrega 
+            e planejamentos em geral.</p>
           </section>
 
         </section>
