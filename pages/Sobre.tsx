@@ -32,11 +32,7 @@ const Sobre = () => {
             </div>
 
           </section>
-
-          <section className={styles.Foto2}>
-            <Image alt='Foto da RR' src={foto2}/>
-          </section>
-
+          
           <section className={styles.Bottom}>
             <p>Acredito que uns dos momentos profissionais mais importantes para mim foram ter participado de alguns
             eventos empresariais que me permitiram ampliar minha rede de contatos e conhecer
@@ -45,6 +41,12 @@ const Sobre = () => {
             principalmente em merges de branchs tanto no GitHub qunto no BitBucket e lidar diretamente com clientes e prazos de etrega 
             e planejamentos em geral.</p>
           </section>
+
+          <section className={styles.Foto2}>
+            <Image alt='Foto da RR' src={foto2}/>
+          </section>
+
+          
 
         </section>
         <Navbar/>
