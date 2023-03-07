@@ -1,6 +1,6 @@
-import CardContato from '@/components/CardContato'
-import Navbar from '@/components/NavBarMobile'
-import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
+import CardContato from '@/src/components/CardContato'
+import Navbar from '@/src/components/NavBarMobile'
+import TutuloPaginaMobile from '@/src/components/TutuloPaginaMobile'
 import type { NextPage } from 'next'
 
 import styles from '../styles/scss/contato.module.scss'

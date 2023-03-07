@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
-import Navbar from '@/components/NavBarMobile'
-import styles from '../styles/scss/skills.module.scss'
-import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
+import Navbar from '@/src/components/NavBarMobile'
+import styles from '@/src/styles/scss/skills.module.scss'
+import TutuloPaginaMobile from '@/src/components/TutuloPaginaMobile'
 
 const Skills = () => {
   return (  

@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import Navbar from '@/components/NavBarMobile'
-import styles from '../styles/scss/sobre.module.scss'
-import TutuloPaginaMobile from '@/components/TutuloPaginaMobile'
+import Navbar from '@/src/components/NavBarMobile'
+import styles from '@/src/styles/scss/sobre.module.scss'
+import TutuloPaginaMobile from '@/src/components/TutuloPaginaMobile'
 import Image from "next/image";
 
-import foto1 from '@/public/images/EMEJFimedited.jpeg'
-import foto2 from '@/public/images/RRPaineledited.jpeg'
+import foto1 from '@/src/public/images/EMEJFimedited.jpeg'
+import foto2 from '@/src/public/images/RRPaineledited.jpeg'
 
 const Sobre = () => {
     return (  

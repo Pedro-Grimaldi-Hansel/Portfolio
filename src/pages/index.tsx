@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import type { NextPage } from 'next'
-//import Navbar from '../components/NavBar'
-import styles from '../styles/scss/index.module.scss'
+import styles from '@/src/styles/scss/index.module.scss'
 import Image from "next/image";
-import foto from '../public/images/FotoPedro.jpeg'
-import NavbarMobile from '@/components/NavBarMobile';
+import foto from '@/src/public/images/FotoPedro.jpeg'
+import NavbarMobile from '@/src/components/NavBarMobile';
 
 
 
