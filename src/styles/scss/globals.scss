@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');@font-face {
+  font-family: 'Source Code Pro';
+  src: url('../../public/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf') format('truetype'),
+}
+
 
 
 html,
@@ -8,14 +12,21 @@ body {
   color:#FFFFFF;
   background-color: #0E1116;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  
   p{
     height: auto;
     line-height: 24px;
     letter-spacing: 0%;
+    font-family: 'Montserrat', sans-serif;
   }
   a {
     color: inherit;
     text-decoration: none;
+  }
+  h1{
+    font-family: 'Source Code Pro', 'Montserrat';
+    font-weight: 300;
+    font-display: swap;
+    font-size: 40px;
   }
 }
