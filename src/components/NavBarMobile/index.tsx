@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "./NavBarMobile.module.scss";
 import { AiFillHome, AiOutlineHome } from "react-icons/ai";
-import { SiAboutdotme } from "react-icons/Si";
+import { SiAboutdotme } from "react-icons/si";
 import { ImProfile } from "react-icons/im";
 import { GiSkills } from "react-icons/gi";
 import { HiOutlineCode } from "react-icons/hi";
