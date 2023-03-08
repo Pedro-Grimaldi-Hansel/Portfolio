@@ -1,20 +1,30 @@
 .CardContato{
     display: flex;
+    text-align: center;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 32px;
     padding-bottom: 96px;
     
+    h2{
+        font-size: 20px;
+        padding-left: 20px; 
+        padding-right: 20px; 
+        margin-bottom: 0px;
+    }
+
     .Container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0E1116;
-    height: 80px;
-    padding-right: 8px;
-    padding-left: 8px;
-    border-radius: 16px;
-    gap: 16px;
-    border: #374A67 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        border-radius: 16px;
+   
+        .icone{
+
+            padding-right: 16px;
+            padding-left: 16px;
+        }
+
     }
 
 }

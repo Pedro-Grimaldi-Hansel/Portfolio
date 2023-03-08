@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link href="/Sobre"><ImProfile/></Link>
           <Link href="/Skills"><GiSkills/></Link>
           <Link href="/Projetos"><HiOutlineCode/></Link>
-        <Link href="/Contato"><BiMessageDetail/></Link>
+          <Link href="/Contato"><BiMessageDetail/></Link>
         </section>
       </>
     );

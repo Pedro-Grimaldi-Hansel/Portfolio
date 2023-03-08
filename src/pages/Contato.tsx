@@ -2,6 +2,7 @@ import CardContato from '@/src/components/CardContato'
 import Navbar from '@/src/components/NavBarMobile'
 import TutuloPaginaMobile from '@/src/components/TutuloPaginaMobile'
 import type { NextPage } from 'next'
+import Formulario from '@/src/components/Formulario'
 
 import styles from '../styles/scss/contato.module.scss'
 
@@ -21,6 +22,8 @@ const Contato = () => {
           </header>
 
           <CardContato/>
+
+          <Formulario/>
 
         <Navbar/>
     </>  
