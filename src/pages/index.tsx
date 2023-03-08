@@ -28,7 +28,7 @@ export default function Home() {
        </header>
 
        <section className={styles.Home_text}>
-        <h1>&lt;&gt;Pedro Grimaldi&lt;/&gt;</h1>
+        <h1>&lt;&gt;Pedro Grimaldi Hansel&lt;/&gt;</h1>
         <p> Sou estudante de graduação em Ciencias Exatas e Ciencias da Computação (UFJF) e trabalho atualmete como desenvolvedor, gerente de projetos e conselheiro multiplicador na Code Empresa Jr de computação.</p>
        </section>
 
