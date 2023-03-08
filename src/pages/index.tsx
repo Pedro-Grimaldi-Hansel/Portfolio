@@ -28,13 +28,13 @@ export default function Home() {
        </header>
 
        <section className={styles.Home_text}>
-        <h1>Pedro Grimaldi</h1>
+        <h1>&lt;&gt;Pedro Grimaldi&lt;/&gt;</h1>
         <p> Sou estudante de graduação em Ciencias Exatas e Ciencias da Computação (UFJF) e trabalho atualmete como desenvolvedor, gerente de projetos e conselheiro multiplicador na Code Empresa Jr de computação.</p>
        </section>
 
        <section className={styles.GitHubStats}>
         <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=374A67&text_color=ffffff&title_color=ffffff&hide_border=true&border_radius=25"/>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=0E1116&text_color=ffffff&title_color=ffffff&border_radius=25"/>
         </a>
        </section>
 
