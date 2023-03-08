@@ -14,4 +14,9 @@
             margin-left: 32px;
             margin-right: 32px;
         }
+        hr {
+            border: none;
+            height: 2px;
+            background-image: linear-gradient(to right, #0E1116, rgba(55, 74, 103, 0.5), rgba(55, 74, 103, 1), rgba(55, 74, 103, 0.5), #0E1116);
+          }
     }

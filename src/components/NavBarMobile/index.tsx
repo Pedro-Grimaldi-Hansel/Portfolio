@@ -7,10 +7,10 @@ const Navbar = () => {
     return (
       <>
         <section className={styles.NavBar}>
-          <Link href="/">Home</Link>
-          <Link href="/Sobre">Sobre</Link>
-          <Link href="/Skills">Skills</Link>
-          <Link href="/Contato">Contato</Link>
+          <p><Link href="/">Home</Link></p>
+          <p><Link href="/Sobre">Sobre</Link></p>
+          <p><Link href="/Skills">Skills</Link></p>
+          <p><Link href="/Contato">Contato</Link></p>
         </section>
       </>
     );
