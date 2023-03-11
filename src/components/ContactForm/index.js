@@ -39,7 +39,7 @@ export default function ContactForm() {
           setMessage('');
           setTimeoutId(setTimeout(() => {
             setSubmitted(false);
-          }, 5000));
+          }, 8000));
         }
       })
       .catch((error) => {
@@ -47,7 +47,7 @@ export default function ContactForm() {
         setError('Erro ao enviar email. Tente novamente mais tarde.');
         setTimeoutId(setTimeout(() => {
           setError(null);
-        }, 5000));
+        }, 8000));
       });
   };
 
@@ -85,9 +85,10 @@ export default function ContactForm() {
           <input type="submit" onClick={(e)=>{handleSubmit(e)}}/>
 
       </form>
-    </section>
-    {submitted && <p className={styles.success}>Email enviado com sucesso!</p>}
+      {submitted && <p className={styles.success}>Email enviado com sucesso!</p>}
     {error && <p className={styles.error}>{error}</p>}
+    </section>
+    
     </>
   );
 };
