@@ -2,11 +2,17 @@ import CardContato from '@/src/components/CardContato'
 import Navbar from '@/src/components/NavBarMobile'
 import TutuloPaginaMobile from '@/src/components/TutuloPaginaMobile'
 import type { NextPage } from 'next'
-import Formulario from '@/src/components/Formulario'
-
 import styles from '../styles/scss/contato.module.scss'
+import ContactForm from '@/src/components/ContactForm/index.js'
 
 const Contato = () => {
+    const handleSuccess = () => {
+      alert('Message sent successfully!');
+    };
+
+    const handleFailure = () => {
+      alert('Failed to send message.');
+    };
   return (  
     <>
         
@@ -23,7 +29,7 @@ const Contato = () => {
 
           <CardContato/>
 
-          <Formulario/>
+          <ContactForm/>
 
         <Navbar/>
     </>  
