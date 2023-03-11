@@ -22,7 +22,7 @@ const CardContato = () => {
                 <div className={styles.Container}>
 
                     <div className={styles.icone}>
-                        <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/Pedro-Grimaldi-Hansel" rel="noreferrer">
                         <BsGithub fontSize="45px"/></a>
                     </div>
 
