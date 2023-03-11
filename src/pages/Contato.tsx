@@ -15,23 +15,23 @@ const Contato = () => {
     };
   return (  
     <>
-        
-        <TutuloPaginaMobile pagina="Contato"/>
-
-          <header className={styles.Contato_infos}>
+    <TutuloPaginaMobile pagina="Contato"/>
+      <main className={styles.Contato}>
+          <section>
             <h2>Email:</h2>
             <p>pedroghansel@gmail.com</p>
             <hr/>
             <h2>Celular:</h2>
             <p>+55 (24) 99944-9717</p>
             <hr/>
-          </header>
+          </section>
 
           <CardContato/>
-
+          <hr/>
           <ContactForm/>
 
         <Navbar/>
+      </main>
     </>  
   )
 }

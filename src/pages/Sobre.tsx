@@ -19,7 +19,7 @@ const Sobre = () => {
           </header>
 
           <section>
-            <h1>&lt;&gt;Sobre Mim&lt;/&gt;</h1>
+            <h1>Sobre Mim</h1>
 
             <p>Olá meu nome é Pedro, tenho 19 anos curso Ciência da Computação e trabalho como desenvolvedor e gerente de projetos.</p>
             <hr/>

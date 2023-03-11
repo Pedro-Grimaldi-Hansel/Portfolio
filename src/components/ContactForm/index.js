@@ -62,32 +62,27 @@ export default function ContactForm() {
   return (
     <>
     <section className={styles.Contato_infos}>
-      <form className={styles.container}>
-        <div>
-          <label>
-            Name:
-          </label>
-          <input type="text" onChange={(e)=>{setName(e.target.value)}} name="name"/>
-        </div>
+      <form className={styles.container}>   
+        
+        <h2>Entre em contato por email:</h2>
 
-        <div>
+          <label className={styles.primeiro}>
+            Nome:
+          </label>
+          <input type="text" onChange={(e)=>{setName(e.target.value)}} name="name" placeholder='Ex: Pedro Grimaldi Hansel'/>
+
           <label>
             Email:
           </label>
-          <input type="email" onChange={(e)=>{setEmail(e.target.value)}} name="email"/>
+          <input type="email" onChange={(e)=>{setEmail(e.target.value)}} name="email" placeholder='Ex: pedroghansel@gmail.com'/>
           
-        </div>
         
-        <div>
           <label>
-            Message:
+            Mensagem:
           </label>
-          <input type="text" onChange={(e)=>{setMessage(e.target.value)}} name="message"/>
-        </div>
+          <textarea type="text" placeholder="Ex: Olá boa tarde, gostaria de entrar em contato..." onChange={(e)=>{setMessage(e.target.value)}} name="message"></textarea>
 
-        <div>
           <input type="submit" onClick={(e)=>{handleSubmit(e)}}/>
-        </div>
 
       </form>
     </section>
