@@ -81,12 +81,14 @@ export default function ContactForm() {
             Mensagem:
           </label>
           <textarea type="text" placeholder="Ex: Olá boa tarde, gostaria de entrar em contato..." onChange={(e)=>{setMessage(e.target.value)}} name="message"></textarea>
+    
+          {submitted && <p className={styles.success}>Email enviado com sucesso!</p>}
+          {error && <p className={styles.error}>{error}</p>}
 
           <input type="submit" onClick={(e)=>{handleSubmit(e)}}/>
 
       </form>
-      {submitted && <p className={styles.success}>Email enviado com sucesso!</p>}
-    {error && <p className={styles.error}>{error}</p>}
+      
     </section>
     
     </>
