@@ -1,13 +1,10 @@
 # Descrição do projeto
 Meu atual portfólio online em Next.js, consumindo API's e sendo hosteado na Vercel.
+
 ## Imagens do projeto
 
-## Organização das pastas do projeto
 
-
-
-
-## Iniciando
+## Inicializando
 
 Primeiro, rode o servidor de desenvolvimento:
 
