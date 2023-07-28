@@ -1,0 +1,29 @@
+ 
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    color:#FFFFFF;
+    background-color: #0E1116;
+    font-size: 16px;
+    
+    p, label, input, textarea{
+      line-height: 24px;
+      letter-spacing: 0%;
+      font-family: 'Montserrat', sans-serif;
+      color: #FFFFFF;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    h1{
+      font-family: 'Source Code Pro', 'Montserrat';
+      font-weight: 300;
+      font-display: swap;
+      font-size: 40px;
+    }
+    h2{
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
