@@ -1,5 +1,5 @@
 # Descrição do projeto
-Meu atual portfólio online em Next.js, consumindo API's e sendo hosteado na Vercel.
+Meu atual portfólio online em Next.js, sendo hosteado na Vercel.
 
 ## Imagens do projeto
 
