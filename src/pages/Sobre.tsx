@@ -13,32 +13,21 @@ const Sobre = () => {
       <>
         <NavBarMobile/>
         <main className={styles.Sobre}>
-        
-          <header>
-            <Image alt='Foto da RR' src={foto2}/>
-          </header>
-
+  
           <section>
             <h1>Sobre Mim</h1>
 
-            <p>Olá meu nome é Pedro, tenho 19 anos curso Ciência da Computação e trabalho como desenvolvedor e gerente de projetos.</p>
+            <p>Tenho contato com programação a mais de 3 anos e sigo buscando me qualificar ainda mais nas tecnologias com que trabalho, como C++, PHP, JavaScript, ReactJs, NextJs e NodeJs para poder me inserir no mercado de trabalho nacional e internacional! Sou comunicativo, proativo e muito empenhado em melhorar como pessoa e como profissional.</p>
             <hr/>
 
-            <p>Sou uma pessoa muito comunicativa, com vontade de aprender e dedicação para me manter aprendendo cada dia mais.</p>
+            <h2>Experiencias</h2>
+            <p>Durante meu periodo na Code jr atuei como desenvolvedor e também como gerente de projetos onde atuava do início ao fim dos projetos, levantando e validando requisitos, gerenciando os desenvolvedores, tendo uma rotina de sprints reviews direto com os clientes e ao final realizava a entrega do projeto. Durante todas as etapas me era nescessario saber lidar e entender as nescessidades do cliente, ter conhecimentos sobre documentação, diagramas UML, metodologias ágeis e o conhecimento tecnico para orientar e ajudar os desenvolvedores e conseguir realizar o deploy e hosting dos projetos.</p>
             <hr/>
 
-            <p>Como desenvolvedor tenho o trabalho de apresentar codigos de facil manutenibilidade, que respeitem determinada
-                arquitetura e atendam todas as necessidades dos clientes de forma intuitiva e com um otimo desenvolvimento de UX e Ui.</p>
+            <p>Em meu estágio na LEVTY, junto a equipe que fazia parte, desenvolvia soluções para o setor de comércio e gerência de energia, para o front-end e back-end, em JavaScript e React.js utilizando a plataforma SYDLE ONE, trabalhando com muitos conceitos de Programação Orientada a Objetos e Modelagem de Processos na prática.</p>
             <hr/>
 
-            <p>Já como Gerente de Projetos acompanho o projeto desde sua precificação, desenvolvimento de sprints e alocação de
-                desenvolvedores, apos o inicio do projeto sou encarregado de delegar tarefas aos desenvolvedores, auxilia-los e
-                orienta-los em possiveis dificuldades e unir em todas as atuais ramificações do codigo em um arquivo principal,
-                sempre garantindo a qualidade do produto.</p>
-            <hr/>
-
-            <p>Tive a oportunidade de participar de alguns eventos empresariais que me permitiram ampliar minha rede de contatos e
-                conhecer pessoas influentes na minha área, e melhorar minhas Soft-Skills.</p>
+            <p>Tive a oportunidade de participar de varios eventos empresariais por Minas Gerais que me permitiram aprender muito e ampliar minha rede de contatos e conhecer pessoas não só da minha área.</p>
             
           </section>
         
