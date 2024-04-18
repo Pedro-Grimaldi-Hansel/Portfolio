@@ -10,6 +10,10 @@ export default function ContactForm() {
   const [error, setError] = useState(null);
   const [timeoutId, setTimeoutId] = useState(null);
 
+  function validateText(name) {
+    return name && typeof name === 'string' && name.trim().length > 0;
+  }
+
   function validateEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
@@ -17,8 +21,16 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => { 
     e.preventDefault();
+    if (!validateText(name)) {
+      alert('Por favor, insira um nome válido!');
+      return;
+    }
     if (!validateEmail(email)) {
       alert('Por favor, insira um endereço de email válido!');
+      return;
+    }
+    if (!validateText(message)) {
+      alert('Por favor, insira uma mensagem válida!');
       return;
     }
 
@@ -28,6 +40,7 @@ export default function ContactForm() {
       email,
       message
     };
+
     axios.post('/api/contact', data)
       .then((res) => {
         console.log('Response received');

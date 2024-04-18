@@ -15,8 +15,7 @@ const Navbar = () => {
         <section className={styles.NavBar}>
           <Link href="/"><AiFillHome/></Link>
           <Link href="/Sobre"><ImProfile/></Link>
-          <Link href="/Skills"><GiSkills/></Link>
-          <Link href="/Projetos"><HiOutlineCode/></Link>
+          <Link href="/Skills"><HiOutlineCode/></Link>
           <Link href="/Contato"><BiMessageDetail/></Link>
         </section>
       </>

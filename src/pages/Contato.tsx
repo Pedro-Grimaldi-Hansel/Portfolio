@@ -1,5 +1,5 @@
 import CardContato from '@/src/components/CardContato'
-import Navbar from '@/src/components/NavBarMobile'
+import NavbarMobile from '@/src/components/NavBarMobile'
 import TutuloPaginaMobile from '@/src/components/TutuloPaginaMobile'
 import type { NextPage } from 'next'
 import styles from '../styles/scss/contato.module.scss'
@@ -30,7 +30,7 @@ const Contato = () => {
           <hr/>
           <ContactForm/>
 
-        <Navbar/>
+        <NavbarMobile/>
       </main>
     </>  
   )
