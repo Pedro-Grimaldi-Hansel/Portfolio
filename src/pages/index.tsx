@@ -23,7 +23,7 @@ export default function Home() {
 
        <section className={styles.Home_text}>
         <h1>&lt;&gt;Pedro Grimaldi Hansel&lt;/&gt;</h1>
-        <p> Sou estudante de graduação em Ciências Exatas e Ciências da Computação (UFJF) e trabalho atualmete como desenvolvedor, gerente de projetos e conselheiro multiplicador na Code Empresa Jr de computação.</p>
+        <p> Sou estudante de graduação em Ciências Exatas e Ciências da Computação (UFJF), ja atuei como desenvolvedor e gerente de projetos na <a href="https://www.instagram.com/codejr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" >Code jr.</a> e como estágiario em engenharia de software na <a href="https://levty.com/br/" target="_blank" >LEVTY</a>.</p>
        </section>
 
        <section className={styles.GitHubStats}>
