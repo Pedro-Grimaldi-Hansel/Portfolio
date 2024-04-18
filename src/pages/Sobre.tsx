@@ -17,7 +17,7 @@ const Sobre = () => {
           <section>
             <h1>Sobre Mim</h1>
 
-            <p>Tenho contato com programação a mais de 3 anos e sigo buscando me qualificar ainda mais nas tecnologias com que trabalho, como C++, PHP, JavaScript, ReactJs, NextJs e NodeJs para poder me inserir no mercado de trabalho nacional e internacional! Sou comunicativo, proativo e muito empenhado em melhorar como pessoa e como profissional.</p>
+            <p>Tenho contato com programação há mais de 3 anos e sigo buscando me qualificar ainda mais nas tecnologias com que trabalho, como C++, PHP, JavaScript, ReactJs, NextJs e NodeJs para poder me inserir no mercado de trabalho nacional e internacional! Sou comunicativo, proativo e muito empenhado em melhorar como pessoa e como profissional.</p>
             <hr/>
 
             <h2>Experiencias</h2>
