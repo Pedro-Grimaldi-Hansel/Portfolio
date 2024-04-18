@@ -32,7 +32,6 @@ const Skills = () => {
             <h2>JavaScript</h2>
             <p>Trabalhei diretamente com JS, para front-end e back-end, como desenvolvedor e gerente de projetos na Code Jr. e estágiario em engenharia de software na LEVTY, atuando com a linguagem pura e os frameworks React.js, Next.js e Node.js e realizando conexoes com o banco de dados Mongo DB via API's Rest.</p>
           </div>
-          <hr />
 
         </main>
       
