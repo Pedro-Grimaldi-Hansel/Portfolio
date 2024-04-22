@@ -21,7 +21,7 @@ const Sobre = () => {
             <hr/>
 
             <h2>Experiencias</h2>
-            <p>Durante meu periodo na Code jr atuei como desenvolvedor e também como gerente de projetos onde atuava do início ao fim dos projetos, levantando e validando requisitos, gerenciando os desenvolvedores, tendo uma rotina de sprints reviews direto com os clientes e ao final realizava a entrega do projeto. Durante todas as etapas me era nescessario saber lidar e entender as nescessidades do cliente, ter conhecimentos sobre documentação, diagramas UML, metodologias ágeis e o conhecimento tecnico para orientar e ajudar os desenvolvedores e conseguir realizar o deploy e hosting dos projetos.</p>
+            <p>Durante meu periodo na Code jr atuei como desenvolvedor e também como gerente de projetos onde atuava do início ao fim dos projetos, levantando e validando requisitos, gerenciando os desenvolvedores, tendo uma rotina de sprints reviews direto com os clientes e ao final realizava a entrega do projeto. Durante todas as etapas me era necessário saber lidar e entender as necessidades do cliente, ter conhecimentos sobre documentação, diagramas UML, metodologias ágeis e o conhecimento tecnico para orientar e ajudar os desenvolvedores e conseguir realizar o deploy e hosting dos projetos.</p>
             <hr/>
 
             <p>Em meu estágio na LEVTY, junto a equipe que fazia parte, desenvolvia soluções para o setor de comércio e gerência de energia, para o front-end e back-end, em JavaScript e React.js utilizando a plataforma SYDLE ONE, trabalhando com muitos conceitos de Programação Orientada a Objetos e Modelagem de Processos na prática.</p>

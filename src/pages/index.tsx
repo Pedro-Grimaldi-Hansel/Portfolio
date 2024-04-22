@@ -5,8 +5,6 @@ import Image from "next/image";
 import foto from '@/src/public/images/FotoPedro.jpeg'
 import NavbarMobile from '@/src/components/NavBarMobile';
 
-
-
 export default function Home() {
   return (
     <>
