@@ -1,9 +1,6 @@
 # Descrição do projeto
 Meu atual portfólio online em Next.js, sendo hosteado na Vercel.
 
-## Imagens do projeto
-
-
 ## Inicializando
 
 Primeiro, rode o servidor de desenvolvimento:
