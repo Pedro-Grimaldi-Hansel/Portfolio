@@ -2,8 +2,14 @@
     margin: 16px;
     padding-bottom: 96px;
     hr {
-        border: none;
-        height: 2px;
-        background-image: linear-gradient(to right, #0E1116, rgba(55, 74, 103, 0.5), rgba(55, 74, 103, 1), rgba(55, 74, 103, 0.5), #0E1116);
-      }
+      border: none;
+      height: 2px;
+      background-image: linear-gradient(to right, #0E1116, rgba(55, 74, 103, 0.5), rgba(55, 74, 103, 1), rgba(55, 74, 103, 0.5), #0E1116);
+    }
+    h2{
+      margin-bottom: 5px;
+    }
+    .subtitulo{
+      margin-top: 0px;
+    }
 }
