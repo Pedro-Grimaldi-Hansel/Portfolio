@@ -3,13 +3,17 @@ import type { NextPage } from 'next'
 import styles from '@/src/styles/scss/index.module.scss'
 import Image from "next/image";
 import foto from '@/src/public/images/FotoPedro.jpeg'
-import NavbarMobile from '@/src/components/NavBarMobile';
+import NavBarMobile from '@/src/components/NavBarMobile';
+import NavBar from '@/src/components/NavBar';
+
 
 export default function Home() {
   return (
     <>
 
-      <NavbarMobile/>
+      <section className={styles.navbar}><NavBar/></section>
+      
+      <section className={styles.navbarMobile}><NavBarMobile/></section>
 
       <main className={styles.Home}>
        

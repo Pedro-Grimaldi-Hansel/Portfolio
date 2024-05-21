@@ -1,4 +1,65 @@
+.navbar{
+    display: flex;
+}
+.navbarMobile{
+    display: none;
+}
+
+.Home{
+    a{
+        text-decoration: underline;
+    }
+    .Home_top{
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 250px;
+        background-color: #374A67;
+        display: flex;
+        justify-content: center;
+        .foto_de_perfil{
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50px;
+                margin-top: -25px;
+                box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
+            }
+            
+        }
+    }
+    .Home_text{
+        text-align: center;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 64px;
+        margin-bottom: 16px;
+        h1{
+            padding-left: 16px;
+            text-align: start;
+            margin: 0;
+        }
+    }
+    .GitHubStats{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+        padding-bottom: 96px;
+        img{
+            height: auto;
+            width: auto;
+        }
+    }
+}
+
 @media ( max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    .navbarMobile{
+        display: flex;
+    }    
     .Home{
         a{
             text-decoration: underline;
@@ -23,34 +84,6 @@
                 
             }
         }
-        .Home_text{
-            text-align: center;
-            margin-left: 16px;
-            margin-right: 16px;
-            margin-top: 64px;
-            margin-bottom: 16px;
-            h1{
-                padding-left: 16px;
-                text-align: start;
-                margin: 0;
-            }
-        }
-        .GitHubStats{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-top: 16px;
-            padding-bottom: 96px;
-            img{
-                height: auto;
-                width: auto;
-            }
-        }
-    }
-    .NavBar{
-        display: flex;
-        height: auto;
-        align-items: flex-end;
     }
 }
 @media ( max-width: 360px){
