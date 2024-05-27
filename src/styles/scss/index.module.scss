@@ -6,6 +6,9 @@
 }
 
 .Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     a{
         text-decoration: underline;
     }
@@ -35,8 +38,7 @@
         margin-top: 64px;
         margin-bottom: 16px;
         h1{
-            padding-left: 16px;
-            text-align: start;
+            text-align: center;
             margin: 0;
         }
     }
@@ -53,6 +55,13 @@
     }
 }
 
+@media ( min-width: 768px){
+    .Home{
+        .Home_text{
+            width: 750px;
+        }
+    }
+}
 @media ( max-width: 768px){
     .navbar{
         display: none;
@@ -63,6 +72,12 @@
     .Home{
         a{
             text-decoration: underline;
+        }
+        .Home_text{
+            h1{
+                padding-left: 16px;
+                text-align: start;
+            }
         }
         .Home_top{
             left: 0;
