@@ -23,9 +23,6 @@ function Home() {
                     React.createElement("a", { href: "https://www.instagram.com/codejr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", target: "_blank" }, "Code jr."),
                     " e como est\u00E1giario em engenharia de software na ",
                     React.createElement("a", { href: "https://levty.com/br/", target: "_blank" }, "LEVTY"),
-                    ".")),
-            React.createElement("section", { className: index_module_scss_1["default"].GitHubStats },
-                React.createElement("a", { href: "https://github.com/Pedro-Grimaldi-Hansel", target: "_blank", rel: "noreferrer" },
-                    React.createElement("img", { src: "https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=0E1116&text_color=ffffff&title_color=ffffff&border_radius=25" }))))));
+                    ".")))));
 }
 exports["default"] = Home;

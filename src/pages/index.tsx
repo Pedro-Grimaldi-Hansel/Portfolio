@@ -28,11 +28,11 @@ export default function Home() {
         <p> Sou estudante de graduação em Ciências Exatas e Ciências da Computação (UFJF), ja atuei como desenvolvedor e gerente de projetos na <a href="https://www.instagram.com/codejr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" >Code jr.</a> e como estágiario em engenharia de software na <a href="https://levty.com/br/" target="_blank" >LEVTY</a>.</p>
        </section>
 
-       <section className={styles.GitHubStats}>
+       {/*<section className={styles.GitHubStats}>
         <a href="https://github.com/Pedro-Grimaldi-Hansel" target="_blank" rel="noreferrer">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=0E1116&text_color=ffffff&title_color=ffffff&border_radius=25"/>
         </a>
-       </section>
+       </section>*/}
 
       </main>
       
