@@ -1,5 +1,3 @@
-import Head from 'next/head'
-import type { NextPage } from 'next'
 import styles from '@/src/styles/scss/index.module.scss'
 import Image from "next/image";
 import foto from '@/src/public/images/FotoPedro.jpeg'
@@ -33,7 +31,6 @@ export default function Home() {
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedro-Grimaldi-Hansel&count_private=true&layout=compact&bg_color=0E1116&text_color=ffffff&title_color=ffffff&border_radius=25"/>
         </a>
        </section>*/}
-
       </main>
       
     </>

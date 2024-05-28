@@ -1,3 +1,4 @@
+import React from 'react'
 import '../styles/scss/globals.scss'
 import type { AppProps } from 'next/app'
 
